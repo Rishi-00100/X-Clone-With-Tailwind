@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="./src/output.css">
+  <title>X-Clone with Tailwind CSS</title>
+</head>
+<body class="bg-black text-white">
+  <div class="md:container flex mx-auto">
+    <div class="first w-16 md:w-[70%]">
+      <div class="logo invert">
+        <svg viewBox="0 0 24 24" aria-hidden="true" class="px-4 py-4 hover:bg-gray-200 hover:cursor-pointer hover:rounded-full m-auto w-16 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
+      </div>
+      <div class="sidebar flex md:items-end">
+       <ul class="flex flex-col text-xl space-y-3 md:px-10 w-full md:ml-[120px]">
+        <li class="flex justify-start items-center gap-3 md:w-fit hover:bg-gray-600 hover:cursor-pointer px-4 py-2 hover:rounded-full font-bold"><span class="text-3xl material-symbols-outlined">home</span><span class="hidden md:block">Home</span></li>
+        <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-600 hover:cursor-pointer px-4 py-2 hover:rounded-full"><span class="text-3xl material-symbols-outlined">search</span><span class="hidden md:block">Explore</span></li>
+        <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-600 hover:cursor-pointer px-4 py-2 hover:rounded-full"><span class="text-3xl material-symbols-outlined">notifications</span><span class="hidden md:block">Notifications</span></li>
+        <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-600 hover:cursor-pointer px-4 py-2 hover:rounded-full"><span class="text-3xl material-symbols-outlined">mail</span><span class="hidden md:block">Messages</span></li>
+        <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-600 hover:cursor-pointer px-4 py-2 hover:rounded-full"><span class="text-3xl material-symbols-outlined">home</span><span class="hidden md:block">Grok</span></li>
+        <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-600 hover:cursor-pointer px-4 py-2 hover:rounded-full"><span class="text-3xl material-symbols-outlined">communities</span><span class="hidden md:block">Communities</span></li>
+        <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-600 hover:cursor-pointer px-4 py-2 hover:rounded-full"><span class="text-3xl material-symbols-outlined">workspace_premium
+        </span><span class="hidden md:block">Premium</span></li>
+        <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-600 hover:cursor-pointer px-4 py-2 hover:rounded-full"><span class="text-3xl material-symbols-outlined">person</span><span class="hidden md:block">Profile</span></li>
+        <li class="flex justify-start items-center gap-3 w-fit hover:bg-gray-600 hover:cursor-pointer px-4 py-2 hover:rounded-full"><span class="text-3xl material-symbols-outlined">more_horiz</span><span class="hidden md:block">More</span></li>
+       </ul>
+      </div>
+    </div>
+    <div class="second w-full border-x-gray-800 border-y-black border-[1px]">
+     <div class="top-sec flex">
+      <div style="text-decoration: underline; text-decoration-color: royalblue; text-decoration-thickness: 3px; text-underline-offset: 17px;" class="left flex justify-center w-1/2 font-bold  hover:bg-gray-800 cursor-pointer py-2">For You</div>
+      <div class="right flex justify-center w-1/2 font-bold text-gray-500  hover:bg-gray-800 cursor-pointer py-2">Following</div>
+      <div class="px-2 py-2  hover:bg-gray-800 cursor-pointer"><span class="material-symbols-outlined">settings</span></div> 
+     </div> 
+     <div class="w-full h-[1px] bg-gray-700"></div>
+     <div class="WhatisHapp flex items-center">
+      <div class="img">
+        <span class="text-5xl p-3 cursor-pointer material-symbols-outlined">account_circle</span>
+      </div>
+      <div class="input w-[90%]">
+        <input class="my-1 bg-black text-white outline-none text-xl" type="text" placeholder="What is Happening?!">
+        </div>
+      </div>
+      <div class="pl-[70px]">
+        <div class="flex items-center text-blue-400 font-bold gap-2 text-sm w-fit hover:bg-gray-900 cursor-pointer rounded-full hover:px-2">
+        <span class="material-symbols-outlined text-lg">public</span>Everyone can Reply</div>
+        <div class="my-[14px] w-[95%] h-[0.2px] bg-gray-600"></div>
+     </div>
+     <div class="small-icons flex items-center justify-between pl-[70px] text-blue-400">
+      <div class="space-x-3">
+      <span class="text-xl hover:bg-gray-900 cursor-pointer rounded-full hover:px-[4px] material-symbols-outlined">mms</span>
+      <span class="text-xl hover:bg-gray-900 cursor-pointer rounded-full hover:px-[4px] material-symbols-outlined">gif_box</span>
+      <span class="text-xl hover:bg-gray-900 cursor-pointer rounded-full hover:px-[4px] material-symbols-outlined">ballot</span>
+      <span class="text-xl hover:bg-gray-900 cursor-pointer rounded-full hover:px-2 material-symbols-outlined">mood</span>
+      <span class="text-xl hover:bg-gray-900 cursor-pointer rounded-full px-[4px] material-symbols-outlined">calendar_clock</span>
+      </div>
+      <div class="mr-7"><button class="bg-blue-500 text-white rounded-full px-[17px] py-[6px] opacity-40 font-bold"><span class="z-10">Post</span></button></div>
+     </div>
+     <div>
+     <div class="h-[1.5px] w-full my-[10px] bg-gray-700"></div>
+     <div class="flex justify-center mb-[10px] items-center text-blue-400 cursor-pointer">Show 500 Posts</div>
+     <div class="h-[1.5px] w-full bg-gray-700"></div>
+     </div>
+    <div class="main cursor-pointer">
+      <div class="post">
+       <div class="flex">
+        <div class="img">
+          <span class="text-5xl p-2 cursor-pointer material-symbols-outlined">account_circle</span>
+        </div>
+       <div>
+        <div class="pt-2 info flex items-center justify-between">
+         <div> 
+          <span class="font-bold hover:underline cursor-pointer">Tech-Enthusiast</span>
+          <span class="text-gray-500">@Tech_0.0 · 4h</span>
+         </div> 
+         <div> 
+          <span class="hover:bg-gray-800 rounded-full hover:text-blue-700 text-gray-500 mr-2 material-symbols-outlined">more_horiz</span>
+         </div>
+        </div>            
+         <div class="content">
+          <span>
+          ChatGPT can now create Mind Maps.
+          <br><br>
+          No more wasting hundreds of hours making visuals for studying or simplifying complex ideas.
+          <br><br>
+          Here’s how to do it for free in a few seconds....
+          </span> 
+         </div>
+         </div>
+       </div>
+       <div class="flex justify-between items-center text-gray-500 py-2">
+        <div class="ml-[60px] flex">
+          <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">chat_bubble</span>40k</div>
+          <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">repeat</span>20K</div>
+          <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">favorite</span>30K</div>
+          <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">bar_chart</span>1.2M</div>
+        </div>
+        <div class="mr-2">
+          <span class="material-symbols-outlined hover:text-blue-500">bookmark</span>
+          <span class="material-symbols-outlined hover:text-blue-500">upload</span>
+        </div>
+       </div>
+      </div>
+      <div class="h-[1.5px] w-full bg-gray-700"></div>
+
+      <div class="post">
+        <div class="flex">
+         <div class="img">
+           <span class="text-5xl p-2 cursor-pointer material-symbols-outlined">account_circle</span>
+         </div>
+        <div>
+         <div class="pt-2 info flex items-center justify-between">
+          <div> 
+           <span class="font-bold hover:underline cursor-pointer">Tech-Enthusiast</span>
+           <span class="text-gray-500">@Tech_0.0 · 4h</span>
+          </div> 
+          <div> 
+           <span class="hover:bg-gray-800 rounded-full hover:text-blue-700 text-gray-500 mr-2 material-symbols-outlined">more_horiz</span>
+          </div>
+         </div>            
+          <div class="content">
+           <span>
+           ChatGPT can now create Mind Maps.
+           <br><br>
+           No more wasting hundreds of hours making visuals for studying or simplifying complex ideas.
+           <br><br>
+           Here’s how to do it for free in a few seconds....
+           </span> 
+          </div>
+          </div>
+        </div>
+        <div class="flex justify-between items-center text-gray-500 py-2">
+         <div class="ml-[60px] flex">
+           <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">chat_bubble</span>40k</div>
+           <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">repeat</span>20K</div>
+           <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">favorite</span>30K</div>
+           <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">bar_chart</span>1.2M</div>
+         </div>
+         <div class="mr-2">
+           <span class="material-symbols-outlined hover:text-blue-500">bookmark</span>
+           <span class="material-symbols-outlined hover:text-blue-500">upload</span>
+         </div>
+        </div>
+       </div>
+       <div class="h-[1.5px] w-full bg-gray-700"></div>
+
+       <div class="post">
+        <div class="flex">
+         <div class="img">
+           <span class="text-5xl p-2 cursor-pointer material-symbols-outlined">account_circle</span>
+         </div>
+        <div>
+         <div class="pt-2 info flex items-center justify-between">
+          <div> 
+           <span class="font-bold hover:underline cursor-pointer">Tech-Enthusiast</span>
+           <span class="text-gray-500">@Tech_0.0 · 4h</span>
+          </div> 
+          <div> 
+           <span class="hover:bg-gray-800 rounded-full hover:text-blue-700 text-gray-500 mr-2 material-symbols-outlined">more_horiz</span>
+          </div>
+         </div>            
+          <div class="content">
+           <span>
+           ChatGPT can now create Mind Maps.
+           <br><br>
+           No more wasting hundreds of hours making visuals for studying or simplifying complex ideas.
+           <br><br>
+           Here’s how to do it for free in a few seconds....
+           </span> 
+          </div>
+          </div>
+        </div>
+        <div class="flex justify-between items-center text-gray-500 py-2">
+         <div class="ml-[60px] flex">
+           <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">chat_bubble</span>40k</div>
+           <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">repeat</span>20K</div>
+           <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">favorite</span>30K</div>
+           <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">bar_chart</span>1.2M</div>
+         </div>
+         <div class="mr-2">
+           <span class="material-symbols-outlined hover:text-blue-500">bookmark</span>
+           <span class="material-symbols-outlined hover:text-blue-500">upload</span>
+         </div>
+        </div>
+       </div>
+       <div class="h-[1.5px] w-full bg-gray-700"></div>
+
+       <div class="post">
+        <div class="flex">
+         <div class="img">
+           <span class="text-5xl p-2 cursor-pointer material-symbols-outlined">account_circle</span>
+         </div>
+        <div>
+         <div class="pt-2 info flex items-center justify-between">
+          <div> 
+           <span class="font-bold hover:underline cursor-pointer">Tech-Enthusiast</span>
+           <span class="text-gray-500">@Tech_0.0 · 4h</span>
+          </div> 
+          <div> 
+           <span class="hover:bg-gray-800 rounded-full hover:text-blue-700 text-gray-500 mr-2 material-symbols-outlined">more_horiz</span>
+          </div>
+         </div>            
+          <div class="content">
+           <span>
+           ChatGPT can now create Mind Maps.
+           <br><br>
+           No more wasting hundreds of hours making visuals for studying or simplifying complex ideas.
+           <br><br>
+           Here’s how to do it for free in a few seconds....
+           </span> 
+          </div>
+          </div>
+        </div>
+        <div class="flex justify-between items-center text-gray-500 py-2">
+         <div class="ml-[60px] flex">
+           <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">chat_bubble</span>40k</div>
+           <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">repeat</span>20K</div>
+           <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">favorite</span>30K</div>
+           <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">bar_chart</span>1.2M</div>
+         </div>
+         <div class="mr-2">
+           <span class="material-symbols-outlined hover:text-blue-500">bookmark</span>
+           <span class="material-symbols-outlined hover:text-blue-500">upload</span>
+         </div>
+        </div>
+       </div>
+       <div class="h-[1.5px] w-full bg-gray-700"></div>
+
+       <div class="post">
+        <div class="flex">
+         <div class="img">
+           <span class="text-5xl p-2 cursor-pointer material-symbols-outlined">account_circle</span>
+         </div>
+        <div>
+         <div class="pt-2 info flex items-center justify-between">
+          <div> 
+           <span class="font-bold hover:underline cursor-pointer">Tech-Enthusiast</span>
+           <span class="text-gray-500">@Tech_0.0 · 4h</span>
+          </div> 
+          <div> 
+           <span class="hover:bg-gray-800 rounded-full hover:text-blue-700 text-gray-500 mr-2 material-symbols-outlined">more_horiz</span>
+          </div>
+         </div>            
+          <div class="content">
+           <span>
+           ChatGPT can now create Mind Maps.
+           <br><br>
+           No more wasting hundreds of hours making visuals for studying or simplifying complex ideas.
+           <br><br>
+           Here’s how to do it for free in a few seconds....
+           </span> 
+          </div>
+          </div>
+        </div>
+        <div class="flex justify-between items-center text-gray-500 py-2">
+         <div class="ml-[60px] flex">
+           <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">chat_bubble</span>40k</div>
+           <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">repeat</span>20K</div>
+           <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">favorite</span>30K</div>
+           <div class="mr-10 flex items-center hover:text-blue-500"><span class="material-symbols-outlined">bar_chart</span>1.2M</div>
+         </div>
+         <div class="mr-2">
+           <span class="material-symbols-outlined hover:text-blue-500">bookmark</span>
+           <span class="material-symbols-outlined hover:text-blue-500">upload</span>
+         </div>
+        </div>
+       </div>
+       <div class="h-[1.5px] w-full bg-gray-700"></div>
+    </div>
+   </div>
+    <div class="hidden md:block third w-full">
+      <div class="search m-4">
+        <input class="w-1/2 rounded-full bg-[rgb(22,24,28)] text-white px-4 py-2" type="text" placeholder="search">
+      </div>
+      <div class="whats m-3 bg-black border-[1px] border-solid border-gray-600 w-1/2 py-1 rounded-xl space-y-0">
+        <h1 class="text-xl font-bold px-3">What's Happening</h1>
+        <div class="items p-3 hover:bg-gray-800 cursor-pointer px-3">
+          <div class="text-sm text-gray-400">Trending in India</div>
+          <div class="font-bold">#Orry</div>
+          <div class="text-sm text-gray-400">40.2k Posts</div>
+        </div>
+        <div class="items p-3 hover:bg-gray-800 cursor-pointer px-3">  
+          <div class="text-sm text-gray-400">Events · Trending</div>
+          <div class="font-bold">#Pookalam</div>
+        </div>
+        <div class="items p-3 hover:bg-gray-800 cursor-pointer px-3">
+          <div class="text-sm text-gray-400">Trending in India</div>
+          <div class="font-bold">#MrunalThakur</div>
+          <div class="text-sm text-gray-400">1,046 posts</div>
+        </div>
+        <div class="items p-3 hover:bg-gray-800 cursor-pointer px-3">
+          <div class="text-sm text-gray-400">Sports · Trending</div>
+          <div class="font-bold">#UFC306</div>
+          <div class="text-sm text-gray-400">155K posts</div>
+        </div>
+        <div class="items p-3 hover:bg-gray-800 cursor-pointer px-3">
+          <div class="text-sm text-gray-400">Politics · Trending</div>
+          <div class="font-bold">#BankerProtectionAct</div>
+          <div class="text-sm text-gray-400">2,322 posts</div>
+        </div>  
+      </div>
+
+     <div class="who m-3 bg-black border-[1px] border-solid border-gray-600 w-1/2 py-1 rounded-xl space-y-0">
+        <h1 class="text-xl font-bold px-3">Who To Follow</h1>
+        <div class="items p-3 hover:bg-gray-800 cursor-pointer px-3"> <a href="https://www.linkedin.com/in/udbhavsingh931899">
+          <div class="font-bold">#My Linked-in</div>
+          <div class="text-sm text-gray-400">@Linked-in</div>
+        </a>  
+        </div>
+        <div class="items p-3 hover:bg-gray-800 cursor-pointer px-3"><a href="https://github.com/Rishi-00100">
+          <div class="font-bold">#My GitHub</div>
+          <div class="text-sm text-gray-400">@GitHub</div>
+        </a>  
+        </div>
+        <div class="items p-3 hover:bg-gray-800 cursor-pointer px-3"><a href="https://curiosity0-0.blogspot.com/">
+          <div class="font-bold">#My Blog</div>
+          <div class="text-sm text-gray-400">@Blog</div>
+        </a>
+        </div>
+        <div class="items p-3 cursor-pointer px-3">
+          <div class="text-blue-500 underline">Show More</div>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
